@@ -1,22 +1,25 @@
 # ubuntu-ssh-enabled
-Ubuntu-ssh-enabled image
+
+NOTE: THIS IMAGE IS TO BE USED FOR TEST AND LEARNIGN PURPOSES ONLY! NOT TO BE USED IN A PRODUCTION ENVIRONMENT!
+
 SSH Enabled Ubuntu Image for Test and Dev purposes ONLY!
 
-Use:
+## Use:
+
 Run the container:
 
-docker run -d mmumshad/ubuntu-ssh-enabled
+```docker run -d mmumshad/ubuntu-ssh-enabled```
 
 Identify the Internal IP
 
-docker inspect <container-id-name>
+```docker inspect <container-id-name>```
 
 SSH
 
-ssh <container-ip>
+```ssh <container-ip>```
 
-Username: root
+**Username:** root
 
-Password: Passw0rd
+**Password:** Passw0rd
 
 Based on : https://docs.docker.com/engine/examples/running_ssh_service/
